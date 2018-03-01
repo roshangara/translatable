@@ -1,0 +1,41 @@
+{
+  "name": "roshangara/translatable",
+  "description": "make translatable database with lumen and laravel",
+  "homepage": "https://github.com/roshangara/translatable",
+  "keywords": [
+    "laravel",
+    "lumen",
+    "roshangara",
+    "translatable"
+  ],
+  "support": {
+    "issues": "https://github.com/roshangara/translatable/issues",
+    "source": "https://github.com/roshangara/translatable"
+  },
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": "^5.0",
+    "illuminate/database": "^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Roshangara\\Translatable\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Roshangara\\Translatable\\TranslatableServiceProvider"
+      ]
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mohammad Taghikhani",
+      "email": "mroshangara@gmail.com",
+      "homepage": "http://roshangara.ir"
+    }
+  ],
+  "minimum-stability": "dev"
+}
