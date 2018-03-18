@@ -138,7 +138,9 @@ trait Translatable
 
         $this->attributes[ $key ] = $this->asJson($translations);
 
-        $this->save();
+        if (!$this->id) {
+            $this->save();
+        }
 
         $this->translations()->updateOrCreate(
             [
