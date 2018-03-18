@@ -144,7 +144,6 @@ trait Translatable
             [
                 'key'    => $key,
                 'locate' => $locale,
-                'value'  => $value,
             ],
             [
                 'key'    => $key,
